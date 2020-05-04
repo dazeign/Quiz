@@ -66,13 +66,31 @@ h1 span{
 .btn.correct{
     background-color: #60d32b;
     border: 3px solid green;
-    color: black;
+    color: white;
 }
 .btn.wrong{
     background-color:#d12836;
     border: 3px solid #940707;
-    color: black;
+    color: white;
 }
+.btn.correct{
+    -webkit-animation: blinkCorrect .3s 3;  /* Safari 4+ */
+    -moz-animation: blinkCorrect .3s 3;  /* Fx 5+ */
+    -o-animation: blinkCorrect .3s 3;  /* Opera 12+ */
+    animation: blinkCorrect .3s 3;  /* IE 10+, Fx 29+ */
+  }
+  
+  @-webkit-keyframes blinkCorrect {
+    0%, 49% {
+      background-color: #60d32b;
+      border: 3px solid green;
+    }
+    50%, 100% {
+      background-color: rgb(178, 207, 140);
+      border: 3px solid green;
+      color: green;
+    }
+  }
 .start-btn, .next-btn{
     font-size: 24px;
     font-weight: bold;
