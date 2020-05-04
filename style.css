@@ -115,10 +115,14 @@ h1 span{
 }
 
 @media only screen and (max-width: 320px){
-
+    
     .container{
         width: 95%;
         margin: 0 2.5% 0 2.5%;
+    }
+    h2{
+        width: 50%;
+        margin: 0 25% 0 25%;
     }
 }
 
