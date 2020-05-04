@@ -77,6 +77,16 @@ function clearStatusClass(element) {
 }
 
 const questions = [
+  {
+    question: 'Who is the favourite player of the developer of this quiz?',
+    answers: [
+      { text: 'Damian Lillard', correct: true },
+      { text: 'Stephen Curry', correct: false },
+      { text: 'LeBron James', correct: false },
+      { text: 'Paul George', correct: false },
+    //   { text: '82 points', correct: false }
+    ]
+  },
     {
       question: 'What team did Kobe Bryant retire with?',
       answers: [
@@ -133,6 +143,46 @@ const questions = [
         { text: '85', correct: false },
         { text: '102', correct: false },
         { text: '100', correct: true },
+      //   { text: '82 points', correct: false }
+      ]
+    },
+    {
+      question: 'Which player has won multiple sixth man of the year awards?',
+      answers: [
+        { text: 'Montrezl Harrell', correct: false },
+        { text: 'Eric Gordon', correct: false },
+        { text: 'Spencer Dinwiddie', correct: false },
+        { text: 'Lou Williams', correct: true },
+      //   { text: '82 points', correct: false }
+      ]
+    },
+    {
+      question: 'Which team drafted Karl-Anthony Towns',
+      answers: [
+        { text: 'Chicago Bulls', correct: false },
+        { text: 'Minnesota Tiberwolves', correct: true },
+        { text: 'New Orleans Pelicans', correct: false },
+        { text: 'Cleveland Cavaliers', correct: true },
+      //   { text: '82 points', correct: false }
+      ]
+    },
+    {
+      question: 'What team did Kevin Garnet retire with?',
+      answers: [
+        { text: 'Brooklyn Nets', correct: false },
+        { text: 'Boston Celtics', correct: false },
+        { text: 'Los Angeles Clippers', correct: false },
+        { text: 'Minnesota Timberwolves', correct: true },
+      //   { text: '82 points', correct: false }
+      ]
+    },
+    {
+      question: 'What college did Anthony Davis play for?',
+      answers: [
+        { text: 'Kentucky', correct: true },
+        { text: 'North Carolina', correct: false },
+        { text: 'Duke', correct: false },
+        { text: 'Michigan St.', correct: false },
       //   { text: '82 points', correct: false }
       ]
     },
