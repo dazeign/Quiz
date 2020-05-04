@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Geo:ital@0;1&family=Neucha&display=swap');
+*, *::before, *::after{
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+body{
+    font-family: 'Geo', sans-serif;
+    padding: 0;
+    margin: 0;
+    /* width: 100vw;
+    height: 100vh; */
+    background-color: rgb(8, 2, 37);
+}
+h1{
+    /* position: absolute;
+    top: 90%; */
+    color: #940030;
+    text-align: center;
+    width: 100%;
+}
+h2{
+    display: block;
+    width: 20%;
+    margin: 0 40% 0 40%;
+}
+h1 span{
+    font-size: 22px;
+    font-style: italic;
+    display: block;
+    text-align: center;
+    color: #7c1b2b;
+}
+.container{
+    background-color: #E0E0E0;
+    width: 60%;
+    max-width: 80%;
+    margin: 0 20% 0 20%;
+    border-radius: 10px;
+    padding: 2.5%;
+    box-shadow: 0 8px 6px -6px black;
+    font-family: 'Geo', sans-serif;
+    font-size: 24px;
+}
+.btn-grid{
+    display: grid;
+    gap: 5%;
+    margin: 10% 0 ;
+}
+.btn{
+    border: 3px solid #273B7A;
+    background-color: #121149;
+    border-radius: 5px;
+    padding: 1.5% 2.5%;
+    color: white;
+    font-family: 'Geo', sans-serif;
+    outline: none;
+    font-size: 20px;
+}
+
+.btn:hover{
+    border-color: #121149;
+    background-color: #273B7A;
+    transition: .8s;
+    cursor: pointer;
+}
+.btn.correct{
+    background-color: #60d32b;
+    border: 3px solid green;
+    color: black;
+}
+.btn.wrong{
+    background-color:#d12836;
+    border: 3px solid #940707;
+    color: black;
+}
+.start-btn, .next-btn{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 1.5% 6%;
+    width: 30%;
+}
+.start-btn{
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    align-items: center;
+}
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: 'Geo', sans-serif;
+}
+.hide{
+    display: none;
+}
+
+
