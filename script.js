@@ -287,10 +287,10 @@ const questions = [
     {
       question: 'Which player is a former Slam Dunk Contest winner?',
       answers: [
-        { text: 'Allen Iverson', correct: true },
+        { text: 'Allen Iverson', correct: false },
         { text: "Shaquille O'Neil", correct: false },
         { text: 'Gary Payton', correct: false },
-        { text: 'Micheal Jordan', correct: false },
+        { text: 'Micheal Jordan', correct: true },
       //   { text: 'The Monster', correct: false }
       ]
     },
