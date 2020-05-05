@@ -140,7 +140,7 @@ h1 span{
         margin: 0 25% 0 25%;
     }
     .footImg{
-        display: block;
+        display: none;
         left: 80%;
         width: 20%;
         margin: 0 0% 2% 60%;
