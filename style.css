@@ -21,8 +21,8 @@ h1{
 }
 h2{
     display: block;
-    width: 20%;
-    margin: 0 40% 0 40%;
+    width: 15%;
+    margin: 0 42.5% 0 42.5%;
 }
 h1 span{
     font-size: 22px;
@@ -45,6 +45,7 @@ h1 span{
     font-family: 'Geo', sans-serif;
     font-size: 24px;
     display: block;
+    height: 10vh;
 }
 .btn-grid{
     display: grid;
@@ -140,8 +141,8 @@ h1 span{
     .footImg{
         display: block;
         left: 80%;
-        width: 40%;
-        margin: 0 30% 10% 30%;
+        width: 20%;
+        margin: 0 0% 2% 60%;
         position: block;
         top: 80%;
         left: 40%;
