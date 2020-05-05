@@ -130,8 +130,8 @@ const questions = [
         question: 'Which of these players played for the Warriors',
         answers: [
         //   { text: 'John Stockton', correct: false },
-          { text: "DeMarcus Cousins", correct: false},
-          { text: 'Anthony Davis', correct: true },
+          { text: "DeMarcus Cousins", correct: true },
+          { text: 'Anthony Davis', correct: false },
           { text: 'Julius Randle', correct: false },
           {text: 'Myles Turner', correct: false}
         ]
@@ -162,7 +162,7 @@ const questions = [
         { text: 'Chicago Bulls', correct: false },
         { text: 'Minnesota Tiberwolves', correct: true },
         { text: 'New Orleans Pelicans', correct: false },
-        { text: 'Cleveland Cavaliers', correct: true },
+        { text: 'Cleveland Cavaliers', correct: false },
       //   { text: '82 points', correct: false }
       ]
     },

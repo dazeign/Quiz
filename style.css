@@ -114,11 +114,13 @@ h1 span{
     display: none;
 }
 
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 260px) {
     
     .container{
         width: 95%;
         margin: 0 2.5% 0 2.5%;
+        padding-top: 5%;
+        padding-bottom: 10%;
     }
     h2{
         width: 50%;
