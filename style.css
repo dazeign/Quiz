@@ -8,8 +8,8 @@ body{
     font-family: 'Geo', sans-serif;
     padding: 0;
     margin: 0;
-    /* width: 100vw;
-    height: 100vh; */
+    /* width: 100vw; */
+    /* height: 100vh; */
     background-color: rgb(8, 2, 37);
 }
 h1{
@@ -31,6 +31,10 @@ h1 span{
     text-align: center;
     color: #7c1b2b;
 }
+.smallBall:hover{
+    transform: rotate(720deg);
+    transition: 3s;
+}
 .container{
     background-color: #E0E0E0;
     width: 60%;
@@ -40,6 +44,7 @@ h1 span{
     box-shadow: 0 8px 6px -6px black;
     font-family: 'Geo', sans-serif;
     font-size: 24px;
+    display: block;
 }
 .btn-grid{
     display: grid;
@@ -55,6 +60,7 @@ h1 span{
     font-family: 'Geo', sans-serif;
     outline: none;
     font-size: 20px;
+    margin-top: 1%;
 }
 
 .btn:hover{
@@ -113,8 +119,13 @@ h1 span{
 .hide{
     display: none;
 }
+.footImg{
+        
+    display: none;
+}
 
-@media only screen and (max-width: 260px) {
+
+@media only screen and (max-width: 540px) {
     
     .container{
         width: 95%;
@@ -126,6 +137,16 @@ h1 span{
         width: 50%;
         margin: 0 25% 0 25%;
     }
+    .footImg{
+        display: block;
+        left: 80%;
+        width: 40%;
+        margin: 0 30% 10% 30%;
+        position: block;
+        top: 80%;
+        left: 40%;
+    }
+    
 }
 
 
