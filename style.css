@@ -147,7 +147,9 @@ h1 span{
         top: 80%;
         left: 40%;
     }
-    
+    .btn{
+        font-size: 18px;
+    }
 }
 
 
