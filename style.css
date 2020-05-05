@@ -18,11 +18,12 @@ h1{
     color: #E0E0E0;
     text-align: center;
     width: 100%;
+    margin-top: 5%;
 }
 h2{
     display: block;
     width: 15%;
-    margin: 0 42.5% 0 42.5%;
+    margin: 30% 42.5% 0 42.5%;
 }
 h1 span{
     font-size: 22px;
@@ -149,7 +150,13 @@ h1 span{
     }
     .btn{
         font-size: 18px;
-        
+
+    }
+    h2{
+        margin-top: 3%;
+    }
+    h1{
+        margin-top: 5%;
     }
 }
 
