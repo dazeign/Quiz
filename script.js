@@ -20,6 +20,14 @@ function startGame() {
   setNextQuestion()
 }
 
+function disappear(){
+  let x = document.getElementById('svgHead')
+  if (x.style.display === 'none'){
+    x.style.display = 'block';
+  } else {
+    x.style.display = 'none';
+  }
+}
 function setNextQuestion() {
   resetState()
   showQuestion(shuffledQuestions[currentQuestionIndex])
