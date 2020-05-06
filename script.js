@@ -2,9 +2,12 @@ const startButton = document.getElementById('start-btn')
 const nextButton = document.getElementById('next-btn')
 const questionContainerElement = document.getElementById('question-container')
 const questionElement = document.getElementById('question')
+const scoreInfo = document.getElementById('score');
 const answerButtonsElement = document.getElementById('answer-buttons')
 
 let shuffledQuestions, currentQuestionIndex
+let score = 0;
+localStorage.setItem('Score', score)
 
 startButton.addEventListener('click', startGame)
 nextButton.addEventListener('click', () => {
@@ -83,6 +86,14 @@ function clearStatusClass(element) {
   element.classList.remove('correct')
   element.classList.remove('wrong')
 }
+
+setScore = numb => {
+    
+  score += numb;
+  scoreInfo.innerText = score;
+  localStorage.setItem('Score', score);
+}
+
 
 const questions = [
   {
