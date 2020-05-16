@@ -126,9 +126,9 @@ h1 span{
     display: none;
 }
 
-@media only screen and (max-width: 840px) {
+@media only screen and (max-width: 1020px) {
     h2{
-        margin-top: 30%;
+        margin-top: 25%;
         width: 25%;
         margin-left: 37.5%;
     }
@@ -160,6 +160,9 @@ h1 span{
     .btn{
         font-size: 18px;
         width: 60%;
+    }
+    .start-btn{
+        width: 100%;
     }
 
 }
