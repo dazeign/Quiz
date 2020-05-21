@@ -88,7 +88,7 @@ h1 span{
     animation: blinkCorrect .3s 3;  /* IE 10+, Fx 29+ */
   }
   
-  @-webkit-keyframes blinkCorrect {
+  @keyframes blinkCorrect {
     0%, 49% {
       background-color: #60d32b;
       border: 3px solid green;
@@ -126,7 +126,7 @@ h1 span{
     display: none;
 }
 
-@media only screen and (max-width: 1020px) {
+@media screen and (max-width: 1024px) {
     h2{
         margin-top: 25%;
         width: 25%;
@@ -136,7 +136,7 @@ h1 span{
         width: 50%;
     }
 }
-@media only screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
     
     .container{
         width: 95%;
@@ -162,7 +162,7 @@ h1 span{
         width: 60%;
     }
     .start-btn{
-        width: 100%;
+        width: 50%;
     }
 
 }

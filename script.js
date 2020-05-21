@@ -145,184 +145,184 @@ const questions = [
           {text: 'Jalen Rose', correct: false}
         ]
       },
-    //   {
-    //     question: 'Which of these players played for the Warriors',
-    //     answers: [
-    //     //   { text: 'John Stockton', correct: false },
-    //       { text: "DeMarcus Cousins", correct: true },
-    //       { text: 'Anthony Davis', correct: false },
-    //       { text: 'Julius Randle', correct: false },
-    //       {text: 'Myles Turner', correct: false}
-    //     ]
-    //   },
-    // {
-    //   question: 'How many points did Wilt Chamberlain score in an NBA all-time record?',
-    //   answers: [
-    //     { text: '70 points', correct: false },
-    //     { text: '85', correct: false },
-    //     { text: '102', correct: false },
-    //     { text: '100', correct: true },
-    //   //   { text: '82 points', correct: false }
-    //   ]
-    // },
-    // {
-    //   question: 'Which player has won multiple sixth man of the year awards?',
-    //   answers: [
-    //     { text: 'Montrezl Harrell', correct: false },
-    //     { text: 'Eric Gordon', correct: false },
-    //     { text: 'Spencer Dinwiddie', correct: false },
-    //     { text: 'Lou Williams', correct: true },
-    //   //   { text: '82 points', correct: false }
-    //   ]
-    // },
-    // {
-    //   question: 'Which team drafted Karl-Anthony Towns',
-    //   answers: [
-    //     { text: 'Chicago Bulls', correct: false },
-    //     { text: 'Minnesota Tiberwolves', correct: true },
-    //     { text: 'New Orleans Pelicans', correct: false },
-    //     { text: 'Cleveland Cavaliers', correct: false },
-    //   //   { text: '82 points', correct: false }
-    //   ]
-    // },
-    // {
-    //   question: 'What team did Kevin Garnet retire with?',
-    //   answers: [
-    //     { text: 'Brooklyn Nets', correct: false },
-    //     { text: 'Boston Celtics', correct: false },
-    //     { text: 'Los Angeles Clippers', correct: false },
-    //     { text: 'Minnesota Timberwolves', correct: true },
-    //   //   { text: '82 points', correct: false }
-    //   ]
-    // },
-    // {
-    //   question: 'What college did Anthony Davis play for?',
-    //   answers: [
-    //     { text: 'Kentucky', correct: true },
-    //     { text: 'North Carolina', correct: false },
-    //     { text: 'Duke', correct: false },
-    //     { text: 'Michigan St.', correct: false },
-    //   //   { text: '82 points', correct: false }
-    //   ]
-    // },
-    // {
-    //   question: 'Which team did Paul Pierce retire with?',
-    //   answers: [
-    //     { text: 'Brooklyn Nets', correct: false },
-    //     { text: 'Washington Wizards', correct: false },
-    //     { text: 'Boston Celtics', correct: true },
-    //     { text: 'Los Angeles Clippers', correct: false },
-    //   //   { text: 'The Monster', correct: false }
-    //   ]
-    // },
-    // {
-    //   question: 'Which of these players played for the Raptors?',
-    //   answers: [
-    //     { text: 'Jason Terry', correct: false },
-    //     { text: 'Richard Jefferson', correct: false },
-    //     { text: 'Allen Iverson', correct: false },
-    //     { text: 'Vince Carter', correct: true },
-    //   //   { text: 'The Monster', correct: false }
-    //   ]
-    // },
-    // {
-    //   question: 'How many teams currently play in New York?',
-    //   answers: [
-    //     { text: '1', correct: false },
-    //     { text: '2', correct: true },
-    //     { text: '3', correct: false },
-    //     { text: '4', correct: false },
-    //   //   { text: 'The Monster', correct: false }
-    //   ]
-    // },
-    // {
-    //   question: 'Which team has NEVER won an NBA Championship?',
-    //   answers: [
-    //     { text: 'Detroit Pistons', correct: false },
-    //     { text: 'Orlando Magic', correct: true },
-    //     { text: 'Houston Rockets', correct: false },
-    //     { text: 'Dallas Mavericks', correct: false },
-    //   //   { text: 'The Monster', correct: false }
-    //   ]
-    // },
-    // {
-    //   question: 'What is the nickname of Vince Carter?',
-    //   answers: [
-    //     { text: 'Vinsanity', correct: true },
-    //     { text: 'Chocolate Thunder', correct: false },
-    //     { text: 'Uncle Drew', correct: false },
-    //     { text: 'The Dream', correct: false },
-    //   //   { text: 'The Monster', correct: false }
-    //   ]
-    // },
-    // {
-    //   question: 'Which of these players played for the Bucks?',
-    //   answers: [
-    //     { text: 'Rajon Rondo', correct: false },
-    //     { text: 'Ray Allen', correct: true },
-    //     { text: 'Kevin Garnett', correct: false },
-    //     { text: 'James Harden', correct: false },
-    //   //   { text: 'The Monster', correct: false }
-    //   ]
-    // },
-    // {
-    //   question: 'Which position did Charles Barkley play?',
-    //   answers: [
-    //     { text: 'PG', correct: false },
-    //     { text: 'SG', correct: false },
-    //     { text: 'SF', correct: false },
-    //     { text: 'PF', correct: true },
-    //   //   { text: 'The Monster', correct: false }
-    //   ]
-    // },
-    // {
-    //   question: "Which team did Shaquille O'Neal retire with?",
-    //   answers: [
-    //     { text: 'Los Angeles Lakers', correct: false },
-    //     { text: 'Boston Celtics', correct: true },
-    //     { text: 'Miami Heat', correct: false },
-    //     { text: 'Phoenix Suns', correct: false },
-    //   //   { text: 'The Monster', correct: false }
-    //   ]
-    // },
-    // {
-    //   question: 'What is the nickname of Dwyane Wade?',
-    //   answers: [
-    //     { text: 'Flash', correct: true },
-    //     { text: 'The Mailman', correct: false },
-    //     { text: 'The Answer', correct: false },
-    //     { text: 'Superman', correct: false },
-    //   //   { text: 'The Monster', correct: false }
-    //   ]
-    // },
-    // {
-    //   question: 'Which player is a former Slam Dunk Contest winner?',
-    //   answers: [
-    //     { text: 'Allen Iverson', correct: false },
-    //     { text: "Shaquille O'Neil", correct: false },
-    //     { text: 'Gary Payton', correct: false },
-    //     { text: 'Micheal Jordan', correct: true },
-    //   //   { text: 'The Monster', correct: false }
-    //   ]
-    // },
-    // {
-    //   question: 'Which of these players played for the Knicks?',
-    //   answers: [
-    //     { text: 'Carmelo Anthony', correct: true },
-    //     { text: 'Vince Carter', correct: false },
-    //     { text: 'Allen Iverson', correct: false },
-    //     { text: 'Paul Pierce', correct: false },
-    //   //   { text: 'The Monster', correct: false }
-    //   ]
-    // },
-    // {
-    //   question: 'Which of these players played for the Lakers?',
-    //   answers: [
-    //     { text: 'Micheal Jordan', correct: false },
-    //     { text: 'Hakeem Olajuwon', correct: false },
-    //     { text: 'Larry Bird', correct: false },
-    //     { text: 'Magic Johnson', correct: true },
-    //   //   { text: 'The Monster', correct: false }
-    //   ]
-    // }
+       {
+         question: 'Which of these players played for the Warriors',
+         answers: [
+         //   { text: 'John Stockton', correct: false },
+           { text: "DeMarcus Cousins", correct: true },
+           { text: 'Anthony Davis', correct: false },
+           { text: 'Julius Randle', correct: false },
+           {text: 'Myles Turner', correct: false}
+         ]
+       },
+     {
+       question: 'How many points did Wilt Chamberlain score in an NBA all-time record?',
+       answers: [
+         { text: '70 points', correct: false },
+         { text: '85', correct: false },
+         { text: '102', correct: false },
+         { text: '100', correct: true },
+       //   { text: '82 points', correct: false }
+       ]
+     },
+     {
+       question: 'Which player has won multiple sixth man of the year awards?',
+       answers: [
+         { text: 'Montrezl Harrell', correct: false },
+         { text: 'Eric Gordon', correct: false },
+         { text: 'Spencer Dinwiddie', correct: false },
+         { text: 'Lou Williams', correct: true },
+       //   { text: '82 points', correct: false }
+       ]
+     },
+     {
+       question: 'Which team drafted Karl-Anthony Towns',
+       answers: [
+         { text: 'Chicago Bulls', correct: false },
+         { text: 'Minnesota Tiberwolves', correct: true },
+         { text: 'New Orleans Pelicans', correct: false },
+         { text: 'Cleveland Cavaliers', correct: false },
+       //   { text: '82 points', correct: false }
+       ]
+     },
+     {
+       question: 'What team did Kevin Garnet retire with?',
+       answers: [
+         { text: 'Brooklyn Nets', correct: false },
+         { text: 'Boston Celtics', correct: false },
+         { text: 'Los Angeles Clippers', correct: false },
+         { text: 'Minnesota Timberwolves', correct: true },
+       //   { text: '82 points', correct: false }
+       ]
+     },
+     {
+       question: 'What college did Anthony Davis play for?',
+       answers: [
+         { text: 'Kentucky', correct: true },
+         { text: 'North Carolina', correct: false },
+         { text: 'Duke', correct: false },
+         { text: 'Michigan St.', correct: false },
+       //   { text: '82 points', correct: false }
+       ]
+     },
+     {
+       question: 'Which team did Paul Pierce retire with?',
+       answers: [
+         { text: 'Brooklyn Nets', correct: false },
+         { text: 'Washington Wizards', correct: false },
+         { text: 'Boston Celtics', correct: true },
+         { text: 'Los Angeles Clippers', correct: false },
+       //   { text: 'The Monster', correct: false }
+       ]
+     },
+     {
+       question: 'Which of these players played for the Raptors?',
+       answers: [
+         { text: 'Jason Terry', correct: false },
+         { text: 'Richard Jefferson', correct: false },
+         { text: 'Allen Iverson', correct: false },
+         { text: 'Vince Carter', correct: true },
+       //   { text: 'The Monster', correct: false }
+       ]
+     },
+     {
+       question: 'How many teams currently play in New York?',
+       answers: [
+         { text: '1', correct: false },
+         { text: '2', correct: true },
+         { text: '3', correct: false },
+         { text: '4', correct: false },
+       //   { text: 'The Monster', correct: false }
+       ]
+     },
+     {
+       question: 'Which team has NEVER won an NBA Championship?',
+       answers: [
+         { text: 'Detroit Pistons', correct: false },
+         { text: 'Orlando Magic', correct: true },
+         { text: 'Houston Rockets', correct: false },
+         { text: 'Dallas Mavericks', correct: false },
+       //   { text: 'The Monster', correct: false }
+       ]
+     },
+     {
+       question: 'What is the nickname of Vince Carter?',
+       answers: [
+         { text: 'Vinsanity', correct: true },
+         { text: 'Chocolate Thunder', correct: false },
+         { text: 'Uncle Drew', correct: false },
+         { text: 'The Dream', correct: false },
+       //   { text: 'The Monster', correct: false }
+       ]
+     },
+     {
+       question: 'Which of these players played for the Bucks?',
+       answers: [
+         { text: 'Rajon Rondo', correct: false },
+         { text: 'Ray Allen', correct: true },
+         { text: 'Kevin Garnett', correct: false },
+         { text: 'James Harden', correct: false },
+       //   { text: 'The Monster', correct: false }
+       ]
+     },
+     {
+       question: 'Which position did Charles Barkley play?',
+       answers: [
+         { text: 'PG', correct: false },
+         { text: 'SG', correct: false },
+         { text: 'SF', correct: false },
+         { text: 'PF', correct: true },
+       //   { text: 'The Monster', correct: false }
+       ]
+     },
+     {
+       question: "Which team did Shaquille O'Neal retire with?",
+       answers: [
+         { text: 'Los Angeles Lakers', correct: false },
+         { text: 'Boston Celtics', correct: true },
+         { text: 'Miami Heat', correct: false },
+         { text: 'Phoenix Suns', correct: false },
+       //   { text: 'The Monster', correct: false }
+       ]
+     },
+     {
+       question: 'What is the nickname of Dwyane Wade?',
+       answers: [
+         { text: 'Flash', correct: true },
+         { text: 'The Mailman', correct: false },
+         { text: 'The Answer', correct: false },
+         { text: 'Superman', correct: false },
+       //   { text: 'The Monster', correct: false }
+       ]
+     },
+     {
+       question: 'Which player is a former Slam Dunk Contest winner?',
+       answers: [
+         { text: 'Allen Iverson', correct: false },
+         { text: "Shaquille O'Neil", correct: false },
+         { text: 'Gary Payton', correct: false },
+         { text: 'Micheal Jordan', correct: true },
+       //   { text: 'The Monster', correct: false }
+       ]
+     },
+     {
+       question: 'Which of these players played for the Knicks?',
+      answers: [
+         { text: 'Carmelo Anthony', correct: true },
+        { text: 'Vince Carter', correct: false },
+         { text: 'Allen Iverson', correct: false },
+         { text: 'Paul Pierce', correct: false },
+       //   { text: 'The Monster', correct: false }
+       ]
+     },
+     {
+       question: 'Which of these players played for the Lakers?',
+       answers: [
+         { text: 'Micheal Jordan', correct: false },
+         { text: 'Hakeem Olajuwon', correct: false },
+         { text: 'Larry Bird', correct: false },
+        { text: 'Magic Johnson', correct: true },
+       //   { text: 'The Monster', correct: false }
+       ]
+    }
   ]
